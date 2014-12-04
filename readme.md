@@ -7,7 +7,9 @@ This was an assignment for my Front End Web Development class at General Assembl
 These were the images given, so you can compare it with my completed version:
 
 Desktop:
+ 
 ![desktop version](StartupMatchmaker.png)
 
 Mobile:
+
 ![mobile version](responsiveMatchmaker.png)
