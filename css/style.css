@@ -1,0 +1,213 @@
+body {
+	font: 20px/1.5 "Source Sans Pro";
+}
+
+.top {
+	background: black;
+	padding: 10px 25px;
+	border-bottom: 4px solid #FDF65F;
+}
+
+.bottom {
+	background: #C6C6C6;
+	padding: 1px 0;
+	border-top: 1px solid #AAAAAA;
+}
+
+h1 {
+	color: #FDF65F;
+	font-family: "Merriweather";
+	font-size: 30px;
+	margin: 5px 0;
+}
+
+nav {
+	float: right;
+	margin-bottom: 10px;
+}
+
+nav a {
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	margin-right: 18px;
+}
+
+.find-links {
+	font-family: "Oswald";
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.clearfix {
+	clear: both;
+}
+
+h2 {
+	font: italic 24px "Merriweather";
+	text-align: center;
+	font-weight: 700;
+}
+
+.strike {
+	color: #999999;
+	text-decoration: line-through;
+}
+
+.underline {
+	border-bottom: 3px solid #FDF65F;
+}
+
+#hero {
+	padding: 25px;
+	background-image: url("../images/coworking.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: right;
+}
+
+#hero > div {
+	display: inline-block;
+	width: 35%;
+	padding: 35px 25px;
+	background-color: rgba(255,255,255,.8);
+	box-shadow: 1px -1px 4px rgba(0,0,0,.5);
+}
+
+#hero h3 {
+	margin: 0;
+	font-size: 30px;
+}
+
+h3, p {
+	text-align: left;
+	margin-top: 0px;
+}
+
+
+ul {
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+	list-style: none;
+	width: 25%;
+	margin-top: -15px;
+	padding: 15px;
+	text-align: center;
+}
+
+#middle {
+	border-left: 1px solid #D9D9D9;
+	border-right: 1px solid #D9D9D9;
+}
+
+li h3 {
+	font-family: "Merriweather";
+	font-size: 25px;
+	margin: 0;
+}
+
+li p {
+	margin-top: 0;
+	font-size: 19px;
+}
+
+.btn {
+	display: inline-block;
+	padding: 15px;
+	width: 85%;
+	border-radius: 8px;
+	border-bottom: 3px solid #9E9E9E;
+	background: #C6C6C6;
+	text-transform: uppercase;
+	text-decoration: none;
+	font: 700 20px "Oswald";
+	color: black;
+	text-align: center;
+}
+
+.btn.btn-primary {
+	background: #FDF65F;
+	border-bottom: 3px solid #CAC44A;
+	text-align: center;
+
+}
+
+.mobile-only {
+	display: none;
+}
+
+footer {
+	box-sizing: border-box;
+	height: 65px;
+	width: 100%;
+	background: black;
+	color: white;
+	padding: 17px 27px;
+	font-size: 20px
+}
+
+@media screen and (max-width: 600px) {
+	.desktop-only, .bottom, nav {
+		display: none;
+	}
+
+	.btn, li {
+		display: block;
+		width: auto;
+	}
+
+	.btn {
+		padding: 10px;
+	}
+
+	#hero > div {
+		width: 50%;
+		padding: 12px 18px;
+	}
+
+	.mobile-only {
+		display: inline-block;
+		font-size: 1rem;
+	}
+
+	.top {
+		padding: 0 25px;
+	}
+
+	.nav {
+		text-align: right;
+		width: 12%;
+		padding-top: 10px;
+		margin-bottom: 0;
+	}
+
+	.mobile {
+		height: 5px;
+		background-color: #FDF65F;
+		margin: 4px 0;
+		border-radius: 2px;
+	}
+
+	#hero h3 {
+		font-size: 1.7rem;
+	}
+
+	h1 {
+		display: inline-block;
+		font-size: 1.5rem;
+		margin-bottom: 0;
+		margin-top: 10px;
+	}
+
+	li h3 {
+		font-size: 1.4rem;
+	}
+
+	li p {
+		font-size: 1.2rem;
+	}
+
+}
